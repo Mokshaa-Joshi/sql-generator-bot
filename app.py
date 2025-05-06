@@ -47,7 +47,7 @@ client = InferenceClient(model="mistralai/Mixtral-8x7B-Instruct-v0.1", token=hug
 embed_model = SentenceTransformer('thenlper/gte-small')
 
 # Streamlit UI
-st.set_page_config(page_title="SQL Generator Bot", page_icon="🛠️")
+st.set_page_config(page_title="SQL Generator Bot")
 st.title("SQL Generator Bot")
 st.markdown("Ask me to create SQL queries!")
 
