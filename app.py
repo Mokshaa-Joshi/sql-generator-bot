@@ -44,7 +44,7 @@ index = pc.Index(index_name)
 client = InferenceClient(model="mistralai/Mixtral-8x7B-Instruct-v0.1", token=huggingface_api_key)
 
 # Load embedding model
-embed_model = SentenceTransformer('thenlper/gte-small')
+embed_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Streamlit UI
 st.set_page_config(page_title="SQL Generator Bot")
