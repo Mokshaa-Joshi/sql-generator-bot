@@ -44,7 +44,7 @@ index = pc.Index(index_name)
 client = InferenceClient(model="mistralai/Mixtral-8x7B-Instruct-v0.1", token=huggingface_api_key)
 
 # Load embedding model
-embed_model = SentenceTransformer('thenlper/gte-small', device='cpu')
+embed_model = SentenceTransformer('google/flan-t5-large')
 
 
 # Streamlit UI
